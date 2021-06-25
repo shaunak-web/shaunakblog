@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+font-family: var(--font1);
+/*height: 74px;*/
+background-color: rgb(231, 247, 86);
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 28px;
+}
+
+.nav-left {
+
+display: flex;
+
+}
+.nav-left span{
+    font-size: 30px;
+    padding-left: 8px;
+
+}
+
+.nav-left ul{
+display: flex;
+align-items: center;
+margin: 0 77px;
+font-size: 20px;
+}
+.nav-left ul li{
+list-style: none;
+margin: 8px;
+font-family: var(--font2);
+transition: all 0.3s ease-in-out;
+}
+.nav-left ul li:hover{
+   
+    color: var(--main-bg-colour);
+font-weight: bolder;
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+   
+    }
+    
+.content-left{
+    font-family: var(--font1);
+    padding: 50px;
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+.content-right{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+height: 100%;
+background-color: rgb(191, 191, 245);
+display: flex;
+margin-top: 32px;
+padding: 9px;
+position: relative;
+}
+.content::after{
+    content: "";
+    
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 2px;
+
+}
+
+.footer{
+height: 50px;
+background-color: rgb(209, 131, 28);
+display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(70, 2, 2);
+flex-direction: column;
+}
+.content-right img{
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 200px;
+}
+.home-articles{
+    background-color: rgb(91, 218, 235);
+    padding-top: 23px;
+    padding: 18px;
+    position: relative;
+
+}
+.year-box{
+    position: absolute;
+    width: 184px;
+    height: 255px;
+    background-color: rgb(248, 248, 182);
+    right: 19px;
+    top: 50px;
+    font-size: 18px;
+    
+}
+.year-box div{
+    margin: 12px 0px;
+}
+.home-article{
+    display: flex;
+    margin: 25px;
+
+}
+.home-article img{
+    width: 300px;
+}
+.home-article-content{
+    align-self: center;
+    padding: 25px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+}
+/*.home-articles{}*/
+
+.footer a{
+    color: rgb(128, 3, 3);
+}

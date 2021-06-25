@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500&family=Roboto&display=swap');
+:root{
+    --main-bg-colour: purple;
+    --font1: 'baloo bhaia2', cursive;
+    --font2: 'roboto', sans-serif;
+}
+.max-width-1{
+    max-width: 80vw;
+}
+
+.max-width-2{
+    max-width: 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.btn{
+    padding: 0px 15px;
+    padding-top: 3px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-family: var(--font1);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+.btn:hover{
+    background: var(--main-bg-colour);
+    color: rgb(151, 241, 226);
+}
+
+.form-input{
+    padding: 0px 5px;
+    padding-top: 3px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font1);
+
+
+}
+
+.font1{
+    font-family: var(--font1);
+
+}
+
+.font2{
+    font-family: var(--font2);
+
+}
+.my-2{
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.form-box input, textarea{
+    width: 44vw;
+    padding: 0px 6px;
+    margin: 7px 0px;
+    font-size: 18px;
+    font-family: var(--font1);
+    border: 2px solid rgb(240, 87, 240);
+    border-radius: 7px 0;
+
+}
+.mx-1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.center{
+    text-align: center;
+}
